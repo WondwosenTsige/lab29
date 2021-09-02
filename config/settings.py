@@ -33,7 +33,7 @@ INSTALLED_APPS = [
     # Local
     'accounts',
     'pages',
-    'practiceXapp'
+    'appx'
 ]
 
 # MIDDLEWARE
