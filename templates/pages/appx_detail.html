@@ -1,0 +1,11 @@
+{% extends '_base.html' %}
+
+{% block content %}
+
+<h2>Details about {{ appx.name }}</h2>
+<h2>Owner: {{ appx.owner }}</h2>
+<p>{{ appx.description }}</p>
+<a href="{% url 'appx_update' appx.pk %}">+ Update Thing</a>
+<a href="{% url 'appx_delete' appx.pk %}">+ Delete Thing</a>
+
+{% endblock content %}
